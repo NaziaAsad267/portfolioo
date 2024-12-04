@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   margin-left: 50px;
+   margin-right: 50px;
+}
+p{
+    padding: 20px;
+    line-height: 30px;
+}
+.container{
+   background-color: grey;
+    border-radius: 20px;
+    font-size: x-large;
+    margin: 60px 60px;
+}
+.about{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 20px 20px 0 0;
+}
+
+.personal-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    gap: 30px;
+}
+hr{
+   height: 5px;
+  background-color: yellow;
+  border: none;
+}
+.details{
+    width: 30%;
+}
+
+.edu{
+    padding: 20px;
+    margin: 20px; 
+}
+
+ul{
+    line-height: 30px;
+    padding: 20px;   
+}
+button{
+    padding: 10px;
+    border: none;
+    width: 20%;
+    background-color: blue;
+    margin-left: 60px;
+}
+@media (max-width: 900px){
+    .personal-details{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin: 5px;}
+ .details{
+            border: double orange;
+             width: 30%; 
+             flex-grow: 1; 
+            flex-shrink: 0; 
+            flex-basis: 100%; 
+            /* flex: 1 0 100%; */
+        }     
+}
+
+
